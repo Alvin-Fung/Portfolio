@@ -10,10 +10,12 @@ p {
     color: white;
     margin-top: 2%;
     text-align: center;
+    font-size: 125%
 }
 
 
 h1 {
+    padding-top: 5vh;
     color: white;
     display: block;
     font-size: 300%;
@@ -22,14 +24,15 @@ h1 {
 
 h2 {
     color: white;
-    font-size: 300%;
-    text-align: left;
+    font-size: 130%;
+    text-align: center;
 }
 
 
 h3 {
     color: white;
     text-align: center;
+    font-size: 180%;
 }
 
 nav {
@@ -47,7 +50,7 @@ nav a {
     display: inline;
     color: white;
     font-family: "Noto Sans", sans-serif;
-    padding: .5em 1em;
+    padding: .8em 1em;
     text-transform: uppercase;
     text-align: center;
 }
@@ -70,6 +73,6 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
-    margin-top: 60vh;
+    margin-top: 30vh;
     padding-bottom: 5vh;
 }
