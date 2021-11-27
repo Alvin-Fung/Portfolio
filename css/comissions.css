@@ -42,4 +42,10 @@ table {
     border-radius: 3vw;
     color: white;
     text-align: center;
+    display: flex;
+
+}
+
+tr {
+    
 }
