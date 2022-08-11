@@ -37,6 +37,8 @@ table {
 }
 
 .info {
+    display: block;
+    width: 50%;
     margin-top: 15vh;
     background-color: var(--background);
     border-radius: 3vw;
