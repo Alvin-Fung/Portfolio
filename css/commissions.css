@@ -33,12 +33,13 @@ nav a:hover {
 
 table {
     width: 100%;
+    text-align: center;
     border-collapse: collapse;
 }
 
 .info {
     display: block;
-    width: 50%;
+    width: 100%;
     margin-top: 15vh;
     background-color: var(--background);
     border-radius: 3vw;
@@ -47,7 +48,3 @@ table {
     display: flex;
 
 }
-
-/* tr {
-    
-} */
