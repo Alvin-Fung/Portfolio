@@ -24,6 +24,8 @@ h1 {
 .item {
     display: table-cell;
     vertical-align: top;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .item img {
@@ -31,6 +33,10 @@ h1 {
     width: 400px;
     height: auto;
     margin: auto;
-    margin-left: 20px;
-    margin-right: 20px;
+   
+}
+
+.item p{
+    font-size: 15px
+
 }
