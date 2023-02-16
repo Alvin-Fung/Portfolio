@@ -6,6 +6,15 @@ body {
     font-family: "Noto Sans", sans-serif;
 }
 
+
+h1 {
+    padding-top: 5vh;
+    color: white;
+    display: block;
+    font-size: 300%;
+    text-align: center;
+}
+
 .row {
     display: table;
     border-collapse: collapse;
@@ -22,4 +31,6 @@ body {
     width: 400px;
     height: auto;
     margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
 }
