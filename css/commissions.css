@@ -28,6 +28,7 @@ nav a {
 }
 
 nav a:hover {
+    font-size: 150%;
     background-color: black;
 }
 
@@ -35,6 +36,12 @@ table {
     width: 100%;
     text-align: center;
     border-collapse: collapse;
+}
+
+h2 {
+    color: white;
+    font-size: 130%;
+    text-align: center;
 }
 
 .info {
@@ -49,9 +56,13 @@ table {
 
 }
 
-
-@media screen and (max-width: 639px) {
-
-    
-    
+footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 20vh;
+    padding-bottom: 2vh;
 }
+
+
+@media screen and (max-width: 639px) {}

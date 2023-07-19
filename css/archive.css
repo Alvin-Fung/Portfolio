@@ -35,10 +35,17 @@ h1 {
     width: 400px;
     height: auto;
     margin: auto;
-   
+
 }
 
-/* .item p{
-    font-size: 15px
+.item p {
+    text-align: center;
+}
 
-} */
+footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 20vh;
+    padding-bottom: 2vh;
+}
