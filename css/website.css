@@ -3,37 +3,8 @@
 html,
 body {
     background-color: #201f1f;
+    color: white;
     font-family: "Noto Sans", sans-serif;
-}
-
-p {
-    color: white;
-    margin-top: 2%;
-    text-align: center;
-    font-size: 125%
-}
-
-
-h1 {
-    padding-top: 5vh;
-    color: white;
-    display: block;
-    font-size: 300%;
-    text-align: center;
-}
-
-h2 {
-    color: white;
-    font-size: 130%;
-    text-align: center;
-}
-
-
-h3 {
-    color: white;
-    text-align: center;
-    font-size: 180%;
-    padding-top: 5vh;
 }
 
 nav {
@@ -62,6 +33,33 @@ nav a:hover {
     background-color: black;
 }
 
+p {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 125%
+}
+
+
+h1 {
+    padding-top: 5vh;
+    display: block;
+    font-size: 300%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 130%;
+    text-align: center;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 180%;
+    padding-top: 5vh;
+}
+
+
 /* Shows active page colour */
 /* nav a.active {
     background-color: 
@@ -75,7 +73,6 @@ nav a:hover {
 footer {
     padding: 10px;
     text-align: center;
-    color: white;
     margin-top: 48vh;
     padding-bottom: 2vh;
 }

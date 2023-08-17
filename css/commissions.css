@@ -4,9 +4,11 @@ html,
 body {
     background-color: #201f1f;
     font-family: "Noto Sans", sans-serif;
+    color: white;
 }
 
 nav {
+    color: white;
     background-color: #0c0c0c;
     display: flex;
     align-items: center;
@@ -18,8 +20,8 @@ nav {
 }
 
 nav a {
-    display: inline;
     color: white;
+    display: inline;
     font-family: "Noto Sans", sans-serif;
     padding: .8em 1em;
     text-transform: uppercase;
@@ -39,7 +41,6 @@ table {
 }
 
 h2 {
-    color: white;
     font-size: 130%;
     text-align: center;
 }
@@ -50,7 +51,6 @@ h2 {
     margin-top: 15vh;
     background-color: var(--background);
     border-radius: 3vw;
-    color: white;
     text-align: center;
     display: flex;
 
@@ -59,7 +59,6 @@ h2 {
 footer {
     padding: 10px;
     text-align: center;
-    color: white;
     margin-top: 45vh;
     padding-bottom: 2vh;
 }
