@@ -75,7 +75,7 @@ h2 {
 
 h3 {
     text-align: center;
-    font-size: 180%;
+    font-size: 120%;
     padding-top: 5vh;
 }
 
@@ -89,6 +89,29 @@ h3 {
     background-color: var(--background);
     border-radius: 3vw;
 }
+
+.project-page-container {
+    display: block
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px 0;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+}
+
+.card {}
+
 
 footer {
     padding: 10px;
