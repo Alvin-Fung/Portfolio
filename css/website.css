@@ -33,26 +33,6 @@ nav a:hover {
     background-color: black;
 }
 
-.social-row {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.linkedin-link img {
-    width: 35px;
-    height: 35px;
-    vertical-align: middle;
-    margin-right: 8px;
-}
-
-.github-link img {
-    width: 35px;
-    height: 35px;
-    vertical-align: middle;
-    margin-right: 8px;
-}
-
 p {
     margin-top: 2%;
     text-align: center;
@@ -79,15 +59,29 @@ h3 {
     padding-top: 5vh;
 }
 
-
-/* Shows active page colour */
-/* nav a.active {
-    background-color: 
-} */
-
 .intro {
     background-color: var(--background);
     border-radius: 3vw;
+}
+
+.social-row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.linkedin-link img {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.github-link img {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin-right: 8px;
 }
 
 .project-page-container {
@@ -99,19 +93,28 @@ h3 {
     flex-wrap: wrap;
     box-sizing: border-box;
     justify-content: space-between;
-    padding: 1rem;
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
     padding: 10px 0;
 }
 
-.project-card {
-    display: flex;
+/* .project-card-col {
     align-items: center;
+    display: center;
+    justify-content: center;
+} */
+
+.card {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 }
 
-.card {}
-
+.card img {
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover
+}
 
 footer {
     padding: 10px;
