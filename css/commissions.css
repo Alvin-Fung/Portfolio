@@ -74,11 +74,6 @@ footer {
         padding: 10px;
     }
 
-    h1 {
-        font-size: 24px;
-        text-align: center;
-    }
-
     p {
         font-size: 16px;
         text-align: center;
@@ -99,30 +94,6 @@ footer {
         width: 100%;
         /* Full width for easier tapping */
         box-sizing: border-box;
-    }
-
-    .projects-container {
-        flex-direction: column;
-        width: 100%;
-        padding: 10px 0;
-    }
-
-    .project-card-col {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .card {
-        width: 100%;
-        padding: 10px;
-        box-sizing: border-box;
-    }
-
-    .card img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-        border-radius: 8px;
     }
 
     footer {
